@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10"
+  },
+  "name": "ferramenta_de_propriedades",
+  "version": "1.0.0",
+  "main": "projeto.js",
+  "devDependencies": {},
+  "scripts": {
+    "start":"node projeto.js"
+  },
+  "author": "JulieneCarneiro",
+  "license": "MIT",
+  "description": ""
+}
