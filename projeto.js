@@ -1,13 +1,13 @@
 import rl from "readline-sync";
 
 function input(string){
-    return rl.question(string)
+    return (rl.question(string)).toUpperCase()
 }
 
-let entrada = input("Digite uma propriedade de css: ")
+let entrada = (input("Digite uma propriedade de css: ")).toUpperCase()
 const aux = []
 
-while(entrada.toLowerCase() != "sair"){
+while(entrada != "SAIR"){
     aux.push(entrada)
     entrada = input("Digite uma propriedade de css: ")
 }
