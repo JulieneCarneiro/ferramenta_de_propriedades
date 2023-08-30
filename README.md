@@ -3,7 +3,7 @@
 
 Essa ferramenta serve para colocar em ordem alfabética as propriedades CSS digitadas. 
 
-Esse projeto foi desenvolvido com Node.js.
+Esse projeto foi desenvolvido com [Node.js](https://nodejs.org/en) e foi utilizado a  biblioteca [readline-sync](https://www.npmjs.com/package/readline-sync). 
 
 
 
